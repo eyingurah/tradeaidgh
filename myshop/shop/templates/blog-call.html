@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/call.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>Nicholas Apokerah, Executive Director of TradeAid Integrated, an NGO based in Bolgatanga, Ghana, is calling for support for basket weavers and other arts and crafts producers in Bolgatanga ahead of the Bolgatanga International Craft and Arts Fair (BICAF) slated for November 1-5, 2023. </p>
+
+              <p>BICAF is an annual event that showcases the best of Bolgatanga's arts and crafts, including baskets, pottery, textiles, and wood carvings.</p>
+
+
+              <p>The fair attracts visitors from all over Ghana and the world, and it is a major opportunity for local artisans to sell their products and promote their work.</p>
+
+
+              <p>Mr. Apokerah is urging people to support basket weavers and other arts and crafts producers by buying their products and attending BICAF. </p>
+
+              <p>He says that the arts and crafts sector is an important part of the Bolgatanga economy, and it provides employment and income for many people in the community.</p>
+
+
+              <p>"The arts and crafts sector is a vital part of the Bolgatanga economy. It provides employment and income for many people in the community. That's why it's so important to support our basket weavers and other arts and crafts producers," the Executive Director of TradeAid Integrated said.</p>
+
+              <p>Mr. Apokerah also says that BICAF is a great opportunity for people to learn about Bolgatanga's culture and heritage. The fair features cultural performances, fun activities, and a variety of food and drinks.
+</p>
+
+              <p>"BICAF is a great way to learn about Bolgatanga's culture and heritage. It's also a great opportunity to buy unique and beautiful handicrafts from local artisans. I encourage everyone to come out and support BICAF this year," Nicholas Apokerah said.
+</p>
+
+              <p>“The idea is to educate the masses to appreciate nature and protect biodiversity because there is no Planet B. What we have is our planet earth and we must harness all our efforts to protect it from destruction,” Mr Blauwet said.</p>
+              <p><em>How to Support Basket Weavers and Other Arts and Crafts Producers in Bolgatanga</em>
+</p>
+              <p>There are a number of ways to support basket weavers and other arts and crafts producers in Bolgatanga. Here are a few ideas:
+
+</p>
+              <p>•  Buy their products. You can buy baskets, pottery, textiles, and wood carvings from local artisans at Bolgatanga's markets, shops, and workshops. You can also find Bolgatanga handicrafts online through retailers such as TradeAid Integrated.</p>
+
+              <p>•  Attend BICAF. BICAF is a great opportunity to buy handicrafts from local artisans and learn about Bolgatanga's culture and heritage. The fair will be held from November 1-5, 2023, at the Bolgatanga Market.
+                  </p>
+              <p>•  Donate to TradeAid Integrated. TradeAid Integrated is an NGO that supports basket weavers and other arts and crafts producers in Bolgatanga. You can log on to www.tradeaidgh.org to donate money to TradeAid Integrated to help them provide training and resources to artisans, and to help them market and sell their products.</p>
+              <p>By supporting basket weavers and other arts and crafts producers in Bolgatanga, you can help to preserve the local culture and heritage, and you can also help to create jobs and improve livelihoods.</p>          
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+       <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

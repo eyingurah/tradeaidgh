@@ -1,0 +1,198 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/bicaf23.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>On November 1, 2023, the grand opening of the Bolgatanga International Crafts and Arts Fair (BICAF) took place in Bolgatanga, in the Upper East regional capital of Ghana.
+ </p>
+
+              <p>The 5-day festival which features a variety of performances, exhibitions, and workshops is a celebration of African arts and culture, particularly, producers of woven baskets and artifacts.
+</p>
+
+              <p>One of the highlights of the grand opening was the Gam Gam dance; a traditional dance of the people of Tongo by the Boya Dance Group.
+</p>
+
+              <p>Gam Gam is the name of a god and the dance is performed to celebrate the annual thank giving and bumper harvest by the Tongos.
+</p>
+
+              <p>The Boya Dancers are known for their energetic performances and their colorful costumes.</p>
+
+              <p>The dancers wore traditional Ghanaian clothing, including loincloths, headbands, and beads.
+ </p>
+
+              <p>They also carried bells, gourds, horse tails which they used to create dramatic and dynamic dance moves.
+</p>
+
+              <p>The performance opened with a slow and deliberate dance, which gradually built in tempo and intensity.
+
+</p>
+
+              <p>The Sakote cultural group from the Nabdam District display some incredible feet works after the Agoajaabiik dancers from Sandema demonstrated a war dance as they charged and moved their bodies in unison, their spears and shields flashing in the light.
+</p>
+
+              <p>The audience was captivated by the performance, and cheered wildly as the dancers reached their climax.
+ 
+</p>
+              <p>It was a fitting way to open the BICAF 2023 festival, and it left a lasting impression on the audience.
+ 
+</p>
+              <p>Performers who spoke to this reporter on the sidelines of the event observed that they were committed to preserving and promoting Ghanaian traditional dance as they continue to inspire audiences with their energy, skill, and passion.
+</p>
+
+              <p>The ceremony was graced by dignitaries including Hilary Adongo from the Restorative Seed Society, Rex Asanga, MCE of Upper East Region and a high powered delegation from Fair Trade Africa.</p>
+              <p><em>Watch dance performances in video below</em></p>
+              <p></p>
+              
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+       <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

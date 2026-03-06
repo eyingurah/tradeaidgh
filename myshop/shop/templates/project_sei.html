@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block sei_project %}
+	
+	<title>{% block title %} SOCIAL ENTERPRISE INITIATIVES{% endblock %}</title>
+
+<section id="ts-features" class="ts-features">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="ts-intro" align="justify">
+              <h3 class="into-sub-title" align="center">Social Enterprise Initiatives </h3>
+              <br>
+
+          <div class="ts-team-content-classic" align="justify">
+            <p class="ts-description">TradeAID Integrated as part of the process of sustainability plan initiated two social enterprise ventures;
+            the work of TradeAID Integrated, management took a decision to initiate <b>two social enterprise ventures</b> and these are <b>
+                Producer Common Marketing Platform (PROCOM Ltd)</b> and <b>Farmers Credit Fund (FCF).</b><br><br>
+            </p>
+          </div>
+
+        <div class="ts-team-wrapper">
+          <div class="team-img-wrapper">
+            <img loading="lazy" src="{% static 'images/procom_logo.jpg' %}" class="img-fluid" alt="PROCOM">
+          </div><br>
+              
+        <div class="ts-team-content-classic" align="justify">
+          <p class="ts-description">Market access for Ghanaian farmers continues to be a challenge and has remained one of the reasons why farmers 
+          especially food crop farmers are poor. There is therefore a genuine concern that development in the International Trading of Agricultural commodities could further worsen
+          the plight of farmers. 
+          These developments are evident in the area of;<br><br>
+              <ul class='list-arrow'>
+                <li><b>Food safety issues</b> which are increasingly becoming an issue for the urban middle and upper class Ghanaians who also have the purchasing powers.</li><br>
+                <li><b>Sustainability issues;</b> this is particularly important to commercial crop farmers. The international market for most commercial 
+                commodities such as cocoa, coffee, groundnut, shea nuts, etc. are also demanding sustainability in terms of environment, income among others.</li><br>
+                <li><b>Standard of Quality;</b> this applies to both local and international regulatory bodies including <b>ISO 22000, HACCP 22000, GAP, GMP,</b> etc.</li>
+              </ul><br>
+              <p>These issues coupled with the fragmented nature of agricultural work in Ghana makes marketing a big challenge to most farmers. <b>PROCOM Ltd</b> 
+              addresses this challenge by aggregating farm produce and providing a common marketing platform. This social enterprise currently deals in Ghanaian grown 
+              rice under the brand name <b>"Bolga Rice”, Maize, Millet, Sheanuts/butter</b> among others.</p><br><br>
+    
+        <div class="ts-team-wrapper">
+          <div class="team-img-wrapper">
+            <img loading="lazy" src="{% static 'images/fcf_logo.jpg' %}" class="img-fluid" alt="FCF" height="500px" width="500px">
+          </div><br>
+        <div class="ts-team-content-classic" align="justify">
+          <p class="ts-description">The mission of Farmers Credit Funds (FCF) is to provide specialized and personalized business/financial services and products to farmers and other informal sector 
+          operators so as to maintain their livelihoods. <b>Farmers Credit Fund</b> is born out of the many years of TradeAID Integrated work in Northern Ghana where accessing 
+          financing for agricultural work has been a nightmare for many farmers and small scale producers over the years. As a way of addressing this challenge, the 
+          organization set up Farmers Credit Fund. It is essentially a continuation of TradeAID Integrated financial intervention work in the areas of <b>micro credit</b> and <b>
+              Village Saving and Loans (VSLA) facilitations.</b> The ultimate goal is to offer financial assistance to farmers and other operators of the informal 
+              sector in the Upper East Region and Ghana at large.</p>
+          </div>
+    </section>
+
+
+{% endblock %}

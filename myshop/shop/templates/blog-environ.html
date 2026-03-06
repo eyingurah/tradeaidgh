@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/erik.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>Erik Blauwet, a Belgian environmental activist in Ghana is poised to transform the sanitation and environmental landscape of the country. </p>
+
+              <p>Mr Blauwet who is a member of Milieuraad Environmental advice board in Jabbeke, Belgium has launched a nationwide campaign to raise awareness about the importance of nature and biodiversity.</p>
+
+              <p>The fulcrum of his effort hinges on safe waste disposal to transform Ghana’s sanitation and environmental space through local communities.</p>
+
+              <p>Speaking at the grand opening of Bolgatanga International Crafts and Art Fair (BICAF) on November 1, 2023, he highlighted the myriad opportunities that exists for the youth in the area of sanitation.</p>
+
+              <p>“Youth unemployment is a major concern in Ghana, but there are job creation prospects in the waste management sector, if only, the youth are ready and willing to take advantage of it,” he said.</p>
+
+              <p>The Canadian team expressed admiration over efforts made by TradeAID in executing the project and
+                committed to a continued support for the organization. </p>
+
+              <p>In his estimation, the entire recycling value chain require human labour, hence a clear opportunity to engage young people who are ready to work in this sector.  </p>
+
+              <p>Mr Blauwet's mission is primarily to safeguard public health by educating people on how to manage waste and raise awareness about the essence of protecting the earth via sanitation and environmental protection.
+</p>
+
+              <p>“The idea is to educate the masses to appreciate nature and protect biodiversity because there is no Planet B. What we have is our planet earth and we must harness all our efforts to protect it from destruction,” Mr Blauwet said.</p>
+              <p>One of Erik’s key messages is the importance of segregating waste into cans, plastics, glass, and biodegradable materials before disposal. 
+</p>
+              <p>He emphasizes that mixing up different types of waste destroys the value of the trash, making it difficult to recycle. 
+</p>
+              <p>He believes that recycling is essential for reducing waste and protecting the environment.</p>
+              <p>In addition to educating Ghanaians about waste management, he also encourages people to take the initiative to reduce, reuse, and recycle plastics. He recommended woven baskets as an alternative to plastic shopping bags.</p>
+              <p><em>Why is Erik Blauwet's work important?</em></p>
+              <p>Ghana is a rapidly developing country, and its population is growing. As a result, the country is facing a number of environmental challenges, including waste management. 
+              According to the World Bank, Ghana generates over 13 million tons of waste per year, and only 20% of this waste is collected and disposed of properly. The rest of the waste ends up in landfills, open dumps, or even in the streets.</p>
+              <p>This waste pollution is having a negative impact on Ghana's environment and public health. 
+</p>
+              <p>It is contaminating water and soil, and it is attracting disease-carrying pests. It is also making Ghana's cities and villages look unsightly and unhealthy.</p>
+              <p><em>What is Erik Blauwet doing to make a difference?</em></p>
+              <p>Erik Blauwet is working to address the waste management crisis in Ghana through his nationwide campaign with his motto “We Clean We Change We Educate. 
+</p>
+              <p>He is educating Ghanaians about the importance of waste management and encouraging them to take steps to reduce, reuse, and recycle waste. 
+</p>
+              <p>He is also working to promote sustainable waste management practices and to advocate for government policies that support these practices.</p>
+              <p><em>How can you support Erik Blauwet’s work?</em></p>
+              <p>There are a number of ways you can support Erik Blauwet’s work:</p>
+              <p>• Reduce, reuse, and recycle your own waste.</p>
+              <p>• Volunteer your time to help with his campaign.</p>
+              <p>• Spread the word about Erik’s work and encourage your friends and family to get involved.</p>
+              <p>• Contact your elected representatives and urge them to support sustainable waste management policies.</p>
+              <p>Together, we can make a difference and help Erik Blauwet to achieve his mission of making Ghana one of the cleanest countries in the world by promoting the motto “We Clean We Change We Educate”.</p>
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+<div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+               </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

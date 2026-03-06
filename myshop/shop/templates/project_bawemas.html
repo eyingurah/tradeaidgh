@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block bawemas_project %}
+	
+	<title>{% block title %} BAWEMAS{% endblock %}</title>
+
+  <section id="ts-features" class="ts-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ts-intro" align="justify">
+              <h3 class="into-sub-title" align="center">Basket Weavers Market Support Project (BAWEMAS)</h3><br><br>
+          
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div id="page-slider" class="page-slider small-bg">
+
+                        <div class="item">
+                          <img loading="lazy" class="img-fluid" src="{% static 'images/projects/bawemas1.jpg' %}" alt="bawemas1" />
+                        </div>
+
+                        <div class="item">
+                          <img loading="lazy" class="img-fluid" src="{% static 'images/projects/bawemas2.jpg' %}" alt="bawemas2" />
+                        </div>
+
+                        <div class="item">
+                          <img loading="lazy" class="img-fluid" src="{% static 'images/projects/bawemas3.jpg' %}" alt="bawemas3" />
+                        </div>
+
+                        <div class="item">
+                          <img loading="lazy" class="img-fluid" src="{% static 'images/projects/bawemas4.jpg' %}" alt="bawemas4.jpg" />
+                        </div>
+
+                      </div>
+                    </div><!-- Page slider end -->
+                  </div><!-- Slider col end -->
+                </div><!-- Content col end -->
+                <br><br>
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <p><b></b>Basket Weavers Market Support Project (BAWEMAS)</b> is about the oldest project of TradeAID Integrated.
+                        It has been operational since the inception of the organization in 2000. The project builds the capacity of basket
+                        weavers and also facilitates market access for their products. The Upper East Region only has one rainy season per
+                        year hence; farmers are only able to cultivate crops once in a year.  The farm harvest is often not enough to feed
+                        families throughout the year and so most families make alternative income through basket weaving. The <b>Basket
+                          Weavers Market Support Project</b> assist the basket weavers to market their baskets on fair trade terms and also
+                        provide training on proper business management. The project has over the years constructed craft centres to serve as
+                        working space for the basket weavers in some of the communities. The project currently works with <b>60 basket weavers
+                          groups</b> scattered across <b>19 villages</b> in and around Bolgatanga. The break down includes <b>2,385 women</b>
+                        consisting of <b>about 98%</b> and the <b>men 57</b> accounting for <b>about 2%</b>. Some of the communities where the
+                        project operate are Yikene, Zorbisi, Zaare and Soe among others. To purchase from our weavers view our  
+
+                         <a href="{% url 'download_file' %}">Catalogue</a>
+
+
+                      <p>The project over the years has recorded the following achievements;</p>
+                    </div><!-- Col end -->
+              </div><!-- Content row end -->
+
+              </div><!-- Container end -->
+              <br>
+          
+            <div class="container">
+              <ul class='list-arrow'>
+                <li>Continuous market access support to the basket weavers averaging <b>about 30,000 pcs of baskets yearly</b>.</li><br>
+                <li>Construction of <b>about six craft centres</b> to provide working space for basket weavers making it possible for basket weavers to learn from each other</li><br>                
+                <li>Empowerment of basket weavers and the introduction of FairTrade leading to the recognition of Bolgatanga as a FairTrade town as well as the introduction of the <b>Bolgatanga International Craft and Arts Fair (BICAF)</b></li><br><br></ul>
+                <p>The project has the generous support of the following <b>partners:</b></p>              
+            </div><br><br>
+
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                  <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" src="{% static 'images/partners/partner1.jpg' %}" class="img-fluid" alt="canadian-feed-the-children">
+                    </div>
+                  </div>
+                  <!--/ Team wrapper 3 end -->
+                </div><!-- Col end -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                  <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" src="{% static 'images/partners/partner2.jpg' %}" class="img-fluid" alt="gone-arty">
+                    </div>
+                  </div>
+                  <!--/ Team wrapper 4 end -->
+
+                </div><!-- Col end -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                  <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" src="{% static 'images/partners/partner3.jpg' %}" class="img-fluid" alt="serrv">
+                    </div>
+                  </div>
+                  <!--/ Team wrapper 5 end -->
+                </div><!-- Col end -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                  <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" src="{% static 'images/partners/partner4.jpg' %}" class="img-fluid" alt="shared-interest">
+                    </div>
+                  </div>
+                  <!--/ Team wrapper 6 end -->
+                </div><!-- Col end -->
+              </div><!-- Content row end -->
+            </div><!-- Container end -->
+          </section><!-- Main container end -->
+                    
+{% endblock %}

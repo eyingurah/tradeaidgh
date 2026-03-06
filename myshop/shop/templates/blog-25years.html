@@ -1,0 +1,250 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/25years.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>TradeAid Integrated, a non-governmental organisation, has commemorated its
+      25th anniversary with a renewed commitment to intensify efforts aimed at
+      reducing poverty and improving livelihoods in the Upper East Region.
+ </p>
+
+              <p>The celebration, held under the theme
+      <em>“25 Years of Transforming, Advancing Livelihoods and Building Resilience,”</em>
+      brought together development partners, donors, community members, and
+      stakeholders from across the region.
+</p>
+
+              <p>Speaking at the event in Bolgatanga, Mr Nicholas Apokerah, the Executive
+      Director of TradeAid Integrated, expressed heartfelt appreciation to all
+      donors and partners who have supported the organisation’s work over the
+      past two and a half decades.
+</p>
+
+              <p>He singled out Oxfam GB as the organisation’s first donor, noting that its
+      early support enabled TradeAid to begin working with basket weavers.
+</p>
+
+              <p>He also acknowledged Canadian Feed the Children, which has partnered with
+      the organisation for more than 10 years, as well as SNV and the STAR Ghana
+      Foundation, among other sponsors, for their steadfast support.</p>
+
+              <p>Mr Apokerah highlighted the impact of TradeAid’s interventions over the
+      years, noting that the organisation’s work spans basket weaving, food
+      security, climate change, advocacy, anti-corruption efforts, and community
+      empowerment.
+ </p>
+
+              <p>He, however, expressed concern that poverty in the Upper East Region has
+      risen in recent years despite earlier improvements.
+</p>
+
+              <p>He attributed the recent increase in poverty levels among rural communities
+      to global and national disruptions, including the COVID-19 pandemic and the
+      Russia–Ukraine war, which have eroded previous gains.
+
+</p>
+
+              <p>Citing the Ghana Living Standards Survey, he said the current poverty level
+      in the region stands at <strong>54.8 percent</strong>, significantly higher
+      than the national average of <strong>23 percent</strong>.
+</p>
+
+               <blockquote>
+      “It means that half of our population is still affected by poverty, so we
+      are not done yet.”
+    </blockquote>
+              <p>Mr Apokerah emphasised that entrepreneurship remains the most sustainable
+      pathway for reducing poverty, noting that Europe and North America achieved
+      development through strong entrepreneurial systems—a model TradeAid
+      believes can uplift communities in northern Ghana.
+ 
+</p>
+              <p>According to him, empowering people to become entrepreneurs would enable
+      them to meet their basic needs, provide education for their children,
+      access healthcare, and improve their living conditions.
+</p>
+
+              <p>Looking ahead, he said TradeAid Integrated plans to focus the next five
+      years on expanding support for young people, promoting innovation among
+      farmers, and strengthening climate-smart agricultural practices.</p>
+      <p>
+      He also highlighted the growing challenge of illegal mining (galamsey),
+      particularly in gold-bearing communities of the Upper East Region, and
+      called for proactive strategies to prevent the area from experiencing the
+      environmental destruction seen in parts of southern Ghana.
+    </p>
+    <p>
+      Mr Roland Atanga Ayoo, the Bolgatanga Municipal Chief Executive, commended
+      TradeAid Integrated for its contribution to advancing local development,
+      describing it as
+      <em>“a dependable partner in poverty reduction, enterprise development and
+      the promotion of sustainable livelihoods.”</em>
+    </p>
+
+    <p>
+      He said that over the years TradeAid Integrated has empowered vulnerable
+      women, expanded infrastructure, and improved market access for businesses,
+      providing enormous opportunities for many women and young people in the
+      Upper East Region.
+    </p>
+
+    <p>
+      He urged the organisation to strengthen partnerships and continue
+      complementing government efforts to build stronger communities capable of
+      withstanding economic and climate shocks for sustainable transformation
+      of lives.
+    </p>
+              
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+       <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

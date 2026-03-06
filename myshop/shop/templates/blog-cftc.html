@@ -1,0 +1,180 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/shine_blog1.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+              </div>
+              <h2 class="entry-title">
+                Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>Global Affairs Canada (GAC) together with Canadian Feed The Children (CFTC) were in  Bolgatanga to engage
+                one of its key partners in Ghana, TradeAID Integrated, a non-profit organization in the Upper East Region
+                for a debriefing on agricultural innovation projects it rolled out for selected farmers dubbed “Sustainable
+                Development, Human Rights, Inclusion and Equality” (SHINE).</p>
+
+              <p>Christopher Khng, Deputy Director of GAC, Candace Holt, Second Secretary (Development) Canadian Embassy
+                in Ghana, Augustine N-Yokuni the Country Director CFTC and Grace Grace Biniyam the Programmes Manager
+                engaged TradeAID Integrated; a recipient of funding from GAC  through the Canadian Feed The Children
+                (CFTC) for the past one year for a debriefing on the project on May 16, 2023.</p>
+
+              <p>During the visit, the Canadian donors with TradeAID Integrated staff and beneficiaries discussed the
+                progress that has been made. They were impressed with the work TradeAID Integrated has done to help
+                farmers improve their livelihoods. </p>
+
+              <p>The Bolgatanga-based NGO has over the years provided training on agricultural techniques, access
+                to markets, and financial assistance to farmers, resulting in increased yields and incomes.</p>
+
+              <p>After the briefing, Christopher and Candace visited farms of beneficiaries of SHINE initiative.
+                The tour on the farms was climaxed with an exhibition of vegetables from the farms. They were impressed
+                with the quality of the vegetables and the enthusiasm of the farmers.</p>
+
+              <p>The Canadian team expressed admiration over efforts made by TradeAID in executing the project and
+                committed to a continued support for the organization. </p>
+
+              <p>Beneficiaries on the other hand, were grateful for the visit they termed as an opportunity to share
+                real-time experiences with their donors. They were also excited to continue working with GAC and CFTC
+                to improve the lives of farmers in northern Ghana.</p>
+
+              <p>In attendance was Mr. Nicholas Apokerah, the Executive Director of TradeAID Integrated, Sebastian
+                Alesane, Project Coordinator, Richmond Abakere, the Agriculture Technical Officer, Roberta Ayelgum
+                Gender and Incubation Hub Manager, Elijah Ying-Urah, Monitoring and Evaluation Officer and other staff
+                of TradeAID Integrated.</p>
+
+              <p>The visit by GAC and CFTC was a positive experience for both parties as it charted a path for them to
+                share successes, get feedback, and reaffirm the commitment to working together to improve the lives of
+                farmers.</p>
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+        <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

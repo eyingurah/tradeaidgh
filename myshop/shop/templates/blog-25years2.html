@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/25years2.jpg' %}" class="img-fluid" alt="post-image">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                ‘Buy made in Ghana’: Belgian activist champions local products, environmental action
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>
+  Belgian environmental activist in Ghana, Erik Blauwet, has called on Ghanaians
+  to prioritize patronizing made-in-Ghana products as a pathway to national
+  development and economic growth.
+</p>
+
+<p>
+  Mr Blauwet made the call when he spoke at the 25th anniversary of TradeAid
+  Integrated, which celebrated its long-standing work in advancing livelihoods,
+  strengthening local enterprises, and promoting resilience among artisans and
+  small-scale producers.
+</p>
+
+<p>
+  The milestone was marked during this year’s Bolgatanga International Arts and
+  Crafts Festival (BICAF), where partners, stakeholders, and international
+  collaborators joined the organisation to reflect on its impact and future
+  direction.
+</p>
+
+<p>
+  Mr Blauwet urged Ghanaians to support the economy by purchasing locally made
+  goods.
+</p>
+
+<blockquote>
+  “Please, let us buy Made in Ghana and support our own economy.”
+</blockquote>
+
+<p>
+  In his speech, Mr Blauwet highlighted concerns about the level of local
+  institutional support for such initiatives. He observed that despite the
+  festival’s economic and cultural significance, the expected presence of local
+  leaders was largely absent.
+</p>
+
+<p>
+  Drawing from experiences in Europe, he noted that similar events often attract
+  strong official representation that helps validate the work of artisans and
+  motivates those sustaining the local economy.
+</p>
+
+<blockquote>
+  “There is something on my heart that I wish to share out of respect for the
+  organizers. I know their efforts. I have been here three times already for
+  this event. At the opening of this arts and crafts festival, I was struck by
+  the absence of local dignitaries. In my country, Belgium, we had an Africa
+  Week. The mayor and other leaders of Bruges, even as a provincial capital,
+  were present at the official opening. They visited every stand, spoke with
+  exhibitors, and praised the organizers and the artisans who keep the economy
+  alive. And here, those who feed the economy are ignored. It pains me not to
+  see such recognition here.”
+</blockquote>
+
+<p>
+  He stressed that recognition and appreciation from leadership play a crucial
+  role in driving growth, improving employment, and strengthening regional
+  development. According to him, the absence of such acknowledgment risks slowing
+  progress in expanding economic opportunities and reducing poverty in the
+  region.
+</p>
+
+<p>
+  Beyond governance issues, Mr Blauwet also shifted focus to environmental
+  responsibility. He appealed to participants and the wider community to reduce
+  their dependence on disposable plastics (polythene), describing it as a
+  growing threat to Ghana’s environment.
+</p>
+
+<p>
+  He encouraged buyers to refuse unnecessary plastic bags—especially when
+  purchasing already packaged goods—and to opt for reusable alternatives
+  whenever possible, noting that small daily actions can significantly reduce
+  plastic waste.
+</p>
+
+<blockquote>
+  “This morning, I bought soap, and the lady immediately took a disposal bag.
+  You call it a rubber, I think. But I don’t need it. I can put it in my
+  backpack. Please, please, refuse this all the time. I beg you. And you can
+  see on my banner the word ‘reduce.’ By refusing disposal bags all the time,
+  we can decrease the plastic mountain in Ghana.”
+</blockquote>
+
+<p>
+  He further urged proper waste management practices, emphasizing the need to
+  separate plastic bottles, cans, and sachets rather than mixing all waste
+  materials together.
+</p>
+
+<blockquote>
+  “Plastic bottles, cans, and sachets must be collected separately—not mixed,
+  not thrown together. When everything is put into one container, as I see so
+  often, value is destroyed.”
+</blockquote>
+
+<p>
+  TradeAid Integrated’s anniversary celebration reaffirmed its commitment to
+  local economic empowerment, environmental sustainability, and the continued
+  transformation of livelihoods.
+</p>
+
+<p>
+  The organisation expressed optimism that stronger community engagement,
+  improved public support, and increased environmental consciousness will shape
+  the next phase of its work.
+</p>          
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+       <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li>
+
+                <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

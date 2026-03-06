@@ -1,0 +1,208 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block gallery %}
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="post-content post-single">
+          <div class="post-media post-image">
+            <img loading="lazy" src="{% static 'images/blog/kayayei.jpg' %}" class="img-fluid" alt="kayayei">
+          </div>
+
+          <div class="post-body">
+            <div class="entry-header">
+              <div class="post-meta">
+                <span class="post-cat">
+                  <i class="far fa-folder-open"></i><a href="{% url 'media' %}"> News</a>
+                </span>
+               
+              </div>
+              <h2 class="entry-title">
+                BICAF, Kayayei leadership fair held in Bolgatanga
+
+              </h2>
+            </div><!-- header end -->
+
+            <div class="entry-content">
+              <p>The Bolgatanga International Craft Fair (BICAF) and the Kayayei Business and Leadership Fair have been jointly held in Bolgatanga to showcase various arts and craft products to the general public.
+</p>
+
+              <p>Whereas BICAF was organised by TradeAID Integrated, a non-governmental organisation (NGO), the Kayayei fair was under the auspices of the Purim African Youth Development Platform (PAYDP) Ghana.
+</p>
+
+              <p>The fair was on the theme: “Empowering Kayayei through business innovation and digital inclusion for sustainable growth”.
+</p>
+
+              <p><b>Networking</b></p>
+              <p>Addressing the event, the Executive Director, PAYDP, Rev. Aku Xornam Kevi, said the organisation thought it wise to partner with BICAF for the purposes of networking and exposure to other arts and crafts products.
+</p>
+
+              <p>She said, “I believe that this partnership has exposed the marginalised to different art products that they can easily learn, produce and sell to the public to earn additional income to improve their lives”.
+</p>
+
+              <p>Rev. Kevi stated that the marginalised girls from the beneficiary regions had been trained in various livelihood empowerment initiatives and that bringing them together at the fair was to enable them to know what their colleagues had done.
+</p>
+
+              <p><b>Positive impact
+</b>
+                <p>Rev. Kevi underscored the need for concerted efforts towards supporting marginalised girls in society, saying “Supporting Kayayei is worth it as it will positively impact their lives to contribute to societal growth”.
+</p>
+
+              <p>She explained that assisting marginalised girls would not only enable them to come out of their shells to realise their full potential but it would also give them hope and put smiles on their faces.
+</p>
+
+              <p>She stressed that the beneficiary girls were not only given training in livelihood skills but were assisted in registering their products with the Food and Drugs Authority (FDA) to enable them to sell to the public.
+</p>
+<p><b>Lifeblood
+</b>
+                <p>The Executive Director, of TradeAID Integrated, Nicholas Apokerah, said the role of the Kayayei and grassroots entrepreneurs could not be understated as they were the lifeblood of markets and communities.
+
+</p>
+<p>Yet, he said, they faced significant challenges ranging from lack of access to market information and training to financial constraints and limited digital resources, adding “These barriers hinder their potential to thrive in a rapidly evolving technological world”.
+</p>
+<p>“At BICAF, we believe in breaking down these barriers through collaboration, skills development and technological empowerment,” he said.
+</p>
+<p><b>Intervention</b>
+  <p>A former Upper East Regional Minister, Tangoba Abayage, welcomed the intervention by PAYDP to provide formal education to the Kayayei as well as training in various skills to manufacture some products for the market.
+
+</p>
+<p>She admonished parents to be responsible towards their children, especially the girls to prevent them from falling prey to unscrupulous men, stressing “Some girls run after men due to the inability of parents to provide their basic needs for them”.
+</p>
+<p>The Municipal Chief Executive (MCE) for Bolgatanga, Rex Asanga, encouraged the youth to go into skills training as it was the surest way to reduce unemployment among the youth in the country.
+</p>
+<p><b>Communique</b></p>
+<p>In a communique issued during the fair, the Kayayei said issues of Kayayei should be put into the national policy for all successive governments to implement as well as the provision of stress-free means to start-up capital and equipment for Kayayei who had undergone skill
+</p>
+            </div>
+
+            <div class="tags-area d-flex align-items-center justify-content-between">
+
+  
+            </div>
+          </div><!-- post-body end -->
+        </div><!-- post content end -->
+
+        <div class="comments-form border-box">
+          
+
+          <form role="form">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div><!-- Col 12 end -->     
+            </div><!-- Form row end -->
+            
+          </form><!-- Form end -->
+        </div><!-- Comments form end -->
+      </div><!-- Content Col end -->
+
+      <div class="col-lg-4">
+
+       <div class="sidebar sidebar-right">
+          <div class="widget recent-posts">
+            <h3 class="widget-title">Recent Posts</h3>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-kayayei' %}"><img loading="lazy" alt="kayayei" src="{% static 'images/blog/kayayei.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-kayayei' %}">BICAF, Kayayei leadership fair held in Bolgatanga
+</a>
+                  </h4>
+                </div>
+              </li><!-- 1st post end-->
+            </ul>
+
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-cftc' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/shine_blog1.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-cftc' %}">Global Affairs Canada/Canadian Feed the Children pay working visit to TradeAID Integrated in Bolgatanga</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+            </ul>
+            
+             <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-bicaf23' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/bicaf23.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-bicaf23' %}">BICAF 2023 Opens with Display of Powerful Traditional Dances from Upper East</a>
+                  </h4>
+                </div>
+              </li><!-- 2nd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-call' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/call.jpg' %}"></a>
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-call' %}">TradeAid Integrated Calls for Support for Basket Weavers Ahead of BICAF</a>
+                  </h4>
+                </div>
+              </li><!-- 3rd post end-->
+               <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-environ' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/erik.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-environ' %}">Belgian Environmental Activist Erik Blauwet Charges Youth to Transform Waste to Wealth</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+              <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years' %}">TradeAid Integrated Marks 25 Years, Reaffirms Commitment to Fighting Rising Poverty</a>
+                  </h4>
+                </div>
+              </li><!-- 4th post end-->
+
+                  <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <div class="posts-thumb">
+                  <a href="{% url 'blog-25years2' %}"><img loading="lazy" alt="img" src="{% static 'images/blog/25years2.jpg' %}"></a> 
+                </div>
+                <div class="post-info">
+                  <h4 class="entry-title">
+                    <a href="{% url 'blog-25years2' %}">‘Buy made in Ghana’: Belgian activist champions local products, environmental action</a>
+                  </h4>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+
+          </div><!-- Recent post end -->
+
+        </div><!-- Sidebar end -->
+      </div><!-- Sidebar Col end -->
+
+    </div><!-- Main row end -->
+
+  </div><!-- Conatiner end -->
+</section><!-- Main container end -->
+
+{% endblock %}

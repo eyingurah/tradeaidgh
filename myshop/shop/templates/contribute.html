@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block contribute %}
+
+  <title>{% block title %} Contribute{% endblock %}</title>
+
+  <section id="ts-features" class="ts-features">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="ts-intro" align="justify">
+              <h3 class="into-sub-title" style="text-align:center;">Contribute To Our Work </h3>
+              <br>
+              <p>TradeAID Integrated welcome individuals and organizations to contribute to our work by partnering with us, joining our volunteer programme <b>“COSLEC”</b> or donating through our <b>Charity Gift Shop.</b> Details of these are provided below:</p>
+              <br>
+              <h3 class="into-sub-title" style="text-align:left; font-size: 1.5rem; text-transform: capitalize;">To Partner Us: </h3><br>
+              <p>Any organization or individual who share common values with us and want to partner with us can do by sending us an email to <a href="mailto:info@tradeaidgh.org">info@tradeaidgh.org</a> or simply filling our online <a href="{% url 'contact' %}">Contact Form.</a></p><br>
+              
+             
+        </div><!-- Col end -->
+      </div>
+    </div>
+   </section>
+
+ {% endblock %}
